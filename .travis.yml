@@ -15,4 +15,4 @@ script:
   - coverage run --source=mywesite,polls manage.py test
 
 after_script:
-  - coverallsa
+  - coveralls
