@@ -1,0 +1,8 @@
+[flake8]
+
+# 88 is Black's default line length; however the maximum length of a line is 90
+#Set it to 90 to avoid the warning
+max-line-length = 90
+
+#Ignore the following files
+exclude = __pycache__, .git, venv/
